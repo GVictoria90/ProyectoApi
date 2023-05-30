@@ -1,0 +1,148 @@
+#main-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pokemon {
+    width: 25%;
+    height: 300px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.inner-pokemon {
+    height: 100%;
+    border: 2px solid rgb(12, 93, 18);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#main-title, .inner-pokemon>h3, .pokemon-info>h5 {
+    text-align:center;
+}
+
+.wrapper-pokemon {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.wrapper-pokemon>img {
+    width: 65%;
+}
+
+
+
+/* Colors */
+.normal {
+    background-color: #A8A77A;
+}
+.fire {
+    background-color: #EE8130;
+}
+.water {
+    background-color: #6390F0;
+}
+.grass {
+    background-color: #7AC74C;
+}
+.electric {
+    background-color: #F7D02C;
+}
+.ice {
+    background-color: #96D9D6;
+}
+.fighting {
+    background-color: #C22E28;
+}
+.poison {
+    background-color: #A33EA1;
+}
+.ground {
+    background-color: #E2BF65;
+}
+.flying {
+    background-color: #A98FF3;
+}
+.psychic {
+    background-color: #F95587;
+}
+.bug {
+    background-color: #A6B91A;
+}
+.rock {
+    background-color: #B6A136;
+}
+.ghost {
+    background-color: #735797;
+}
+.dark {
+    background-color: #705746;
+}
+.dragon {
+    background-color: #6F35FC;
+}
+.steel {
+    background-color: #B7B7CE;
+}
+.fairy {
+    background-color: #D685AD;
+}
+
+
+
+
+.normal-2 {
+    background-color: #929DA3;
+}
+.fire-2 {
+    background-color: #FF9D55;
+}
+.water-2 {
+    background-color: #5090D6;
+}
+.grass-2 {
+    background-color: #63BC5A;
+}
+.electric-2 {
+    background-color: #F4D23C;
+}
+.ice-2 {
+    background-color: #73CEC0;
+}
+.fighting-2 {
+    background-color: #CE416B;
+}
+.poison-2 {
+    background-color: #AA6BC8;
+}
+.ground-2 {
+    background-color: #D97845;
+}
+.flying-2 {
+    background-color: #8FA9DE;
+}
+.psychic-2 {
+    background-color: #FA7179;
+}
+.bug-2 {
+    background-color: #91C12F;
+}
+.rock-2 {
+    background-color: #C5B78C;
+}
+.ghost-2 {
+    background-color: #5269AD;
+}
+.dark-2 {
+    background-color: #5A5465;
+}
+.dragon-2 {
+    background-color: #0B6DC3;
+}
+.steel-2 {
+    background-color: #5A8EA2;
+}
+.fairy-2 {
+    background-color: #EC8FE6;
+}
